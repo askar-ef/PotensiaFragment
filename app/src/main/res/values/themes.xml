@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TabFrag" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <!-- Base application theme with action bar -->
+    <style name="Base.Theme.TabFrag.WithActionBar" parent="Theme.Material3.DayNight">
+    <!-- Customize your light theme here, similar to the theme without ActionBar. -->
+    <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <!-- Themes that can be applied to the application or specific activities-->
+    <style name="Theme.TabFrag" parent="Base.Theme.TabFrag"/>
+    <style name="Theme.TabFrag.WithActionBar" parent="Base.Theme.TabFrag.WithActionBar" />
+</resources>
